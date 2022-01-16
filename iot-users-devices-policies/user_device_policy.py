@@ -90,7 +90,7 @@ def list_all_users_that_has_access_to_device_type(device_type:str, user_dict: di
             user_list.extend(user for user in _user_list if user not in user_list)
     return user_list
 
-if __name__ == "__main__":
+def main():
     CURRENT_DIR = os.getcwd()
     parser = argparse.ArgumentParser(description='User Device Policy checker.')
     parser.add_argument("--device", "-d", type=argparse.FileType('r'), required=False, default="devices.json",
@@ -147,4 +147,6 @@ if __name__ == "__main__":
             print(f"{user_list} has access to Device type: {device_type}")
         else:
             print(f"ZERO USER has access to Device type: {device_type}")
-    # functions[int(option)]()
+
+if __name__ == "__main__":
+    main()
