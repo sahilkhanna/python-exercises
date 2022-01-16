@@ -1,0 +1,37 @@
+{
+    "devices":
+    [
+        {
+            "id": "kettle_0",
+            "type": "kettle"
+        },
+        {
+            "id": "kettle_1",
+            "type": "kettle"
+        },
+        {
+            "id": "garageBlinds",
+            "type": "blinds"
+        },
+        {
+            "id": "bedroomBlinds",
+            "type": "blinds"
+        },
+        {
+            "id": "kitchenBlinds",
+            "type": "blinds"
+        },
+        {
+            "id": "bathroomDoor",
+            "type": "door"
+        },
+        {
+            "id": "garageDoor",
+            "type": "door"
+        },
+        {
+            "id": "bedroomDoor",
+            "type": "door"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "policies":
+    [
+        {
+            "id": "KettlePolicy",
+            "devices": ["kettle_0", "kettle_1"]
+        },
+        {
+            "id": "GaragePolicy",
+            "devices": ["garageDoor", "garageBlinds"]
+        },
+        {
+            "id": "BlindsPolicy",
+            "devices": ["garageBlinds", "bedroomBlinds"]
+        },
+        {
+            "id": "MasterBedroomPolicy",
+            "devices": ["bedroomDoor", "bedroomBlinds"]
+        },
+        {
+            "id": "DoorsPolicy",
+            "devices": ["bedroomDoor", "garageDoor", "bathroomDoor"]
+        }
+    ]
+}

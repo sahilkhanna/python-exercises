@@ -1,0 +1,17 @@
+{
+    "users": 
+    [
+        { 
+            "name" : "John",
+            "policies": ["KettlePolicy", "BlindsPolicy", "MasterBedroomPolicy"]
+        },
+        {
+            "name" : "Doe",
+            "policies": ["GaragePolicy", "BlindsPolicy", "DoorsPolicy"]
+        },
+        {
+            "name" : "Susan",
+            "policies": ["KettlePolicy", "DoorsPolicy"]
+        }
+    ]
+}

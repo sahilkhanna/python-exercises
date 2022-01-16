@@ -2,6 +2,8 @@
 
 A bunch of Python based exercises or problems.
 
+1. [IoT exercise to find relation between users, devices & policies.](/iot-users-devices-policies)
+
 ## Setup
 
 It is recomended to use virtual environment to test these exercises.
