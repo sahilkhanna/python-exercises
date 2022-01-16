@@ -3,6 +3,7 @@
 A bunch of Python based exercises or problems.
 
 1. [IoT exercise to find relation between users, devices & policies.](/iot-users-devices-policies)
+2. [Calculate Perimeter of n number of points on xy plane.](/perimeter)
 
 ## Setup
 
